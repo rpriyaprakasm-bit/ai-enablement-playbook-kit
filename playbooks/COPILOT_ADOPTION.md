@@ -1,49 +1,34 @@
-# Microsoft 365 Copilot — adoption playbook
+# Copilot — what I tell teams
 
-## When Copilot is a good fit
+## Use it when
 
-- First draft of email, summary, or status from **content the user already has**  
-- Turning long threads/docs into **bullets or action lists**  
-- Exploring wording options (user still owns the send)  
+You’re starting from material you already have: a long email thread, meeting notes, a rough status. The job is draft, compress, or rephrase — and a person still hits send.
 
-## When to prefer Power Automate / Apps instead
+## Don’t use it when
 
-- Same steps every week with **no judgment** → Automate  
-- Structured intake / approval → Forms + Automate or Apps  
-- System of record updates at scale → governed flow or IT project  
+The work is the same every Friday with fixed steps. That’s a flow. Or when the answer must come from an official policy source you haven’t wired up. Chat is a bad system of record.
 
-## Prompt patterns (business-safe)
+## Prompts I actually reuse
 
-**Status summary**
+**Status for a director**
 ```text
-Using only the text I pasted, summarize progress, risks, and asks for a director.
-Do not invent metrics. Flag anything that is unclear.
+Using only what I pasted, list progress, risks, and open asks.
+If a number isn’t in the text, say it’s missing. Don’t fill gaps.
 ```
 
-**Meeting → actions**
+**Notes → actions**
 ```text
-Extract action items with owner and due date if stated.
-List open questions separately. Do not assign owners that were not named.
+Pull action items. Owner and due date only if they were said.
+Separate open questions. Don’t invent owners.
 ```
 
-**Process draft**
-```text
-Draft a simple SOP from these steps. Mark assumptions with [ASSUMPTION].
-Keep language operational, not marketing.
-```
+## Mistakes that show up in the first month
 
-## Anti-patterns
+- Pasting anything confidential “just to try”  
+- Forwarding the draft without reading it  
+- Asking for a full architecture with two sentences of context  
+- Treating Copilot as the place to store the final SOP  
 
-| Don’t | Why |
-|-------|-----|
-| Paste Restricted data into prompts | Policy / leakage risk |
-| Send Copilot output without review | Hallucinations, wrong tone |
-| “Build me a full solution architecture” with no context | Shallow, unchecked advice |
-| Replace official policy search with chat | Source-of-truth problems |
+## Rollout that doesn’t collapse
 
-## Rollout tips
-
-1. Start with **one persona** (e.g. ops analysts) and three approved scenarios.  
-2. Pair each scenario with a **1-page tip sheet** and a live demo.  
-3. Collect “time saved / quality” stories monthly for leadership.  
-4. Route automation-shaped ideas to a formal **intake process**, not endless Copilot experiments.  
+Pick one job role. Give them three approved scenarios and a one-pager. Collect two or three real time-saved stories before expanding. Automation-shaped ideas go to intake — they shouldn’t live as endless prompt experiments.

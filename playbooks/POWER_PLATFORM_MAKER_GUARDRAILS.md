@@ -1,39 +1,27 @@
-# Power Platform — maker guardrails
+# Maker guardrails (short version)
 
-Short rules for citizen developers. Expand with your org’s CoE policies.
+I keep this short so people read it.
 
-## Environments
+## Environment
 
-| Do | Don’t |
-|----|--------|
-| Build production solutions in the designated environment | Build critical flows only in the default environment if policy forbids it |
-| Use solutions for anything that must move Dev → Test → Prod | Rely on “export a single flow” with no documentation |
+If your org has a dev/test/prod setup, don’t ship the important stuff only from Default. I’ve seen production flows trapped there with no clear owner.
 
-## Data loss prevention (DLP)
+## DLP
 
-- Check whether the connectors you need are **Business** or **Blocked**.  
-- Mixing blocked + business connectors can break runs — design before you build.  
-- If blocked, **escalate** — don’t bypass with personal accounts.
+Check connectors before you promise a delivery date. A blocked connector on Friday afternoon is an avoidable failure.
 
-## Licensing flags (teach makers to ask early)
+## License
 
-| Signal | Action |
-|--------|--------|
-| Premium connector | Confirm license path before promising delivery |
-| AI Builder / Copilot Studio capacity | Confirm capacity with platform owner |
-| External guests as users | Validate guest access model |
+Premium connector or AI Builder capacity is a conversation with the platform owner *before* the demo to the VP.
 
-## Design defaults
+## Defaults I ask for on anything “real”
 
-1. **Owner + backup** on every production flow/app.  
-2. **Error email/Teams** on failed runs for anything business-critical.  
-3. **No secrets** in Compose or hard-coded URLs with keys.  
-4. Prefer **SharePoint list / Dataverse** over buried Excel on one desktop.  
-5. Document the **happy path** in 10 lines on the backlog item.  
+1. Named owner and a backup  
+2. A failure path that notifies someone  
+3. No keys sitting in a Compose step  
+4. Data in a list or Dataverse — not one person’s desktop Excel  
+5. Ten lines on what the happy path is  
 
-## When to stop and engage IT / platform team
+## Stop and escalate
 
-- Restricted data  
-- Cross-tenant or public endpoints  
-- Financial posting or HR master data changes  
-- Anything needing 24/7 support beyond maker best-effort  
+Restricted data, posting into finance/HR systems of record, or anything that needs true 24/7 support. Citizen development isn’t a workaround for those.

@@ -1,70 +1,37 @@
 # AI Enablement Playbook Kit
 
-**Adoption · training · Community of Practice · maker guardrails** for Microsoft 365 Copilot, Power Platform, and AI-assisted work.
+Most “enablement” folders are either empty or a 40-page PDF nobody opens. I wanted a small set of notes I could hand a team in the first month: when to use Copilot, when to use a flow, how a community actually meets, and what to check before something goes live.
 
-Portfolio kit for **AI and automation enablement** roles: ready-to-run workshop outlines, Copilot prompt patterns, CoP operating model, and governance guidance — not a single automation script.
-
----
-
-## Why this exists
-
-Enablement succeeds when business teams can:
-
-- Know **when** to use Copilot vs Power Automate vs a full project  
-- Follow **safe defaults** (data, DLP, licensing flags)  
-- Learn in **short workshops** and a living CoP  
-- Reuse **patterns** instead of one-off experiments  
-
-This kit packages those artifacts so you can show program thinking, not only technical builds.
+This is that set. It’s incomplete on purpose — there’s no third workshop and no brand-new LMS. What’s here is what I’d use first.
 
 ---
 
-## What’s included
+## Contents
 
-| Artifact | Purpose |
-|----------|--------|
-| [playbooks/COPILOT_ADOPTION.md](./playbooks/COPILOT_ADOPTION.md) | Copilot do / don’t, prompt patterns by role |
-| [playbooks/POWER_PLATFORM_MAKER_GUARDRAILS.md](./playbooks/POWER_PLATFORM_MAKER_GUARDRAILS.md) | Environments, DLP, premium flags |
-| [playbooks/COMMUNITY_OF_PRACTICE.md](./playbooks/COMMUNITY_OF_PRACTICE.md) | CoP rhythm, roles, engagement ideas |
-| [workshops/01_COPILOT_101.md](./workshops/01_COPILOT_101.md) | 60-min hands-on workshop outline |
-| [workshops/02_AUTOMATE_FIRST_FLOW.md](./workshops/02_AUTOMATE_FIRST_FLOW.md) | 90-min first flow workshop |
-| [templates/USE_CASE_ONE_PAGER.md](./templates/USE_CASE_ONE_PAGER.md) | Sponsor-facing summary |
-| [templates/ADOPTION_METRICS.md](./templates/ADOPTION_METRICS.md) | Simple KPIs for leadership |
-| [CHECKLIST_DEPLOYMENT_READINESS.md](./CHECKLIST_DEPLOYMENT_READINESS.md) | Pre-production gates |
+**Playbooks**
+- `playbooks/COPILOT_ADOPTION.md` — fit / don’t fit, prompts I reuse, mistakes I see  
+- `playbooks/POWER_PLATFORM_MAKER_GUARDRAILS.md` — environments, DLP, licensing flags  
+- `playbooks/COMMUNITY_OF_PRACTICE.md` — a cadence that doesn’t burn facilitators out  
 
----
+**Workshops**
+- `workshops/01_COPILOT_101.md` — 60 minutes  
+- `workshops/02_AUTOMATE_FIRST_FLOW.md` — 90 minutes  
 
-## Skills demonstrated
-
-| Theme | Where it shows |
-|-------|----------------|
-| Copilot & Power Platform guidance | Copilot + maker guardrail playbooks |
-| Training & workshops | Workshop outlines |
-| Community of Practice | CoP operating model |
-| Documentation & best practices | Entire kit structure |
-| Governance & compliance awareness | Guardrails + deployment checklist |
-| Stakeholder / enablement | Metrics + use-case one-pager |
-| Scaling reusable patterns | Pattern language across playbooks |
+**Templates**
+- `templates/USE_CASE_ONE_PAGER.md`  
+- `templates/ADOPTION_METRICS.md` — a few metrics, not a wall of charts  
+- `CHECKLIST_DEPLOYMENT_READINESS.md`  
 
 ---
 
-## How to walk through this
+## How this pairs with the other repos
 
-1. **CoP monthly rhythm** — how adoption stays alive after the pilot.  
-2. **Copilot adoption** — one strong prompt vs one anti-pattern.  
-3. **Maker guardrails** — how you’d stop a risky flow before production.  
-4. Tie to live builds: Weekly Ops Status Pack + Intake Hub as **patterns the CoP would share**.  
+- [Intake hub](https://github.com/rpriyaprakasm-bit/ai-use-case-intake-hub) — where ideas get scored  
+- [Weekly ops status pack](https://github.com/rpriyaprakasm-bit/weekly-ops-status-pack) — an example pattern worth teaching  
+- [Risk radar](https://github.com/rpriyaprakasm-bit/ai-project-risk-radar) — AI-assisted reporting with a fallback when the API isn’t available  
 
----
-
-## Related portfolio projects
-
-- [ai-use-case-intake-hub](https://github.com/rpriyaprakasm-bit/ai-use-case-intake-hub) — intake & prioritization  
-- [weekly-ops-status-pack](https://github.com/rpriyaprakasm-bit/weekly-ops-status-pack) — Power Automate Friday pack  
-- [ai-project-risk-radar](https://github.com/rpriyaprakasm-bit/ai-project-risk-radar) — AI-assisted risk reporting  
+If someone only reads one file here, make it the Copilot playbook and the maker guardrails.
 
 ---
-
-## License
 
 MIT

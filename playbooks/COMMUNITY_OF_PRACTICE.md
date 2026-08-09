@@ -1,42 +1,30 @@
-# Community of Practice (CoP) — operating model
+# Community of Practice
 
-## Purpose
+A CoP dies when every meeting is a status update. The point is peer help and sharing patterns that already worked.
 
-Sustain AI & automation adoption through peer learning, pattern sharing, and light governance — not a second project office.
+## Roles that matter
 
-## Roles
+- **Facilitator** — protects the agenda and the timebox  
+- **Makers** — bring builds and problems  
+- **Platform person** — shows up for DLP and licensing, not every item  
+- **Sponsor** — removes blockers once a month, doesn’t run the hour  
 
-| Role | Who | Responsibility |
-|------|-----|----------------|
-| Sponsor | Program / platform lead | Air cover, priorities |
-| Facilitator | Enablement analyst | Agenda, cadence, channels |
-| Makers | Business power users | Share builds, ask for help |
-| Platform advisors | IT / CoE | DLP, licensing, architecture |
+## Cadence I can sustain
 
-## Cadence
+| Meeting | Frequency | Length |
+|---------|-----------|--------|
+| Office hours | Weekly | 30–45 min |
+| Demo day | Monthly | ~45 min, two or three demos max |
+| Pattern review | Monthly | Promote or retire — be honest |
 
-| Ritual | When | Length |
-|--------|------|--------|
-| Office hours | Weekly | 30–45 min drop-in |
-| Demo day | Monthly | 45 min — 2–3 makers show patterns |
-| Pattern review | Monthly | 30 min — promote or retire patterns |
-| Leadership pulse | Monthly/Quarterly | Metrics + stories |
+If office hours are empty for three weeks, change the time or the channel. Don’t add more meetings.
 
-## Channels
+## Useful, not cute
 
-- Teams: **#ai-automation-cop** (Q&A)  
-- Teams: **#pattern-library** (links to approved solutions)  
-- SharePoint: playbooks + workshop recordings  
+- One channel for questions  
+- One place for “approved patterns” links  
+- Occasional write-up of a failure (no blame)  
 
-## Engagement ideas
+## Numbers worth tracking
 
-- “Fail of the month” (safe blameless learning)  
-- Badge for first production flow with error handling  
-- Spotlight: hours saved story with sponsor quote  
-
-## Health metrics
-
-- Active makers (ran or edited a flow/app in 30 days)  
-- Office-hours attendance  
-- Patterns published vs retired  
-- Intake volume and median time-to-triage  
+Active makers in the last 30 days, intake volume, time to triage, and a couple of sponsor quotes. That’s enough for leadership without building a second reporting industry.
