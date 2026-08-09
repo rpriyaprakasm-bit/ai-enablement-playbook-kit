@@ -6,7 +6,7 @@ By the end, participants can:
 
 1. Run three approved Copilot scenarios on their own content  
 2. Spot at least two anti-patterns  
-3. Know how to submit an automation idea to the intake hub  
+3. Know how to submit an automation idea through intake  
 
 ## Agenda
 

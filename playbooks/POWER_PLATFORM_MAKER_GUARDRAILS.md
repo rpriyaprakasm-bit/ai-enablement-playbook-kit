@@ -31,7 +31,7 @@ Short rules for citizen developers. Expand with your org’s CoE policies.
 4. Prefer **SharePoint list / Dataverse** over buried Excel on one desktop.  
 5. Document the **happy path** in 10 lines on the backlog item.  
 
-## When to stop and engage IT / Value Hub
+## When to stop and engage IT / platform team
 
 - Restricted data  
 - Cross-tenant or public endpoints  

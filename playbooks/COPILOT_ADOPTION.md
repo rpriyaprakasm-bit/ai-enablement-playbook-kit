@@ -41,9 +41,9 @@ Keep language operational, not marketing.
 | “Build me a full solution architecture” with no context | Shallow, unchecked advice |
 | Replace official policy search with chat | Source-of-truth problems |
 
-## Rollout tips for Value Hub
+## Rollout tips
 
 1. Start with **one persona** (e.g. ops analysts) and three approved scenarios.  
 2. Pair each scenario with a **1-page tip sheet** and a live demo.  
 3. Collect “time saved / quality” stories monthly for leadership.  
-4. Route automation-shaped ideas to **intake hub**, not endless Copilot experiments.  
+4. Route automation-shaped ideas to a formal **intake process**, not endless Copilot experiments.  

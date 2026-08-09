@@ -2,13 +2,13 @@
 
 **Adoption · training · Community of Practice · maker guardrails** for Microsoft 365 Copilot, Power Platform, and AI-assisted work.
 
-Portfolio kit for **AI Value Hub / enablement** roles: ready-to-run workshop outlines, Copilot prompt patterns, CoP operating model, and governance guidance — not a single automation script.
+Portfolio kit for **AI and automation enablement** roles: ready-to-run workshop outlines, Copilot prompt patterns, CoP operating model, and governance guidance — not a single automation script.
 
 ---
 
 ## Why this exists
 
-Enablement roles succeed when business teams can:
+Enablement succeeds when business teams can:
 
 - Know **when** to use Copilot vs Power Automate vs a full project  
 - Follow **safe defaults** (data, DLP, licensing flags)  
@@ -34,10 +34,10 @@ This kit packages those artifacts so you can show program thinking, not only tec
 
 ---
 
-## Skills demonstrated (role map)
+## Skills demonstrated
 
-| JD theme | Where it shows |
-|----------|----------------|
+| Theme | Where it shows |
+|-------|----------------|
 | Copilot & Power Platform guidance | Copilot + maker guardrail playbooks |
 | Training & workshops | Workshop outlines |
 | Community of Practice | CoP operating model |
@@ -48,12 +48,12 @@ This kit packages those artifacts so you can show program thinking, not only tec
 
 ---
 
-## How to use in an interview
+## How to walk through this
 
-1. Walk the **CoP monthly rhythm** (30 seconds).  
-2. Open **Copilot adoption** — one good prompt vs one anti-pattern.  
-3. Show **maker guardrails** — how you’d stop a risky flow before production.  
-4. Tie to your live builds: Weekly Ops Status Pack + Intake Hub as **patterns the CoP would socialize**.  
+1. **CoP monthly rhythm** — how adoption stays alive after the pilot.  
+2. **Copilot adoption** — one strong prompt vs one anti-pattern.  
+3. **Maker guardrails** — how you’d stop a risky flow before production.  
+4. Tie to live builds: Weekly Ops Status Pack + Intake Hub as **patterns the CoP would share**.  
 
 ---
 

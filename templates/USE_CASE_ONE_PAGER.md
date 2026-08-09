@@ -30,6 +30,6 @@ Public / Internal / Confidential / Restricted
 
 ## Risks & dependencies
 
-## Ask of Value Hub
+## Ask of the enablement team
 
 Triage only / build support / training / pattern reuse

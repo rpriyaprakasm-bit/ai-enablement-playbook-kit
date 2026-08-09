@@ -8,8 +8,8 @@ Sustain AI & automation adoption through peer learning, pattern sharing, and lig
 
 | Role | Who | Responsibility |
 |------|-----|----------------|
-| Sponsor | Director / Value Hub lead | Air cover, priorities |
-| Facilitator | Senior Analyst (enablement) | Agenda, cadence, channels |
+| Sponsor | Program / platform lead | Air cover, priorities |
+| Facilitator | Enablement analyst | Agenda, cadence, channels |
 | Makers | Business power users | Share builds, ask for help |
 | Platform advisors | IT / CoE | DLP, licensing, architecture |
 

@@ -1,6 +1,6 @@
 # Deployment readiness checklist
 
-Use before promoting a citizen or Value Hub solution to production use.
+Use before promoting a citizen or program-supported solution to production use.
 
 ## Ownership
 
